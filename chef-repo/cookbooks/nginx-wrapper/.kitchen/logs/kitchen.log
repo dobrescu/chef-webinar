@@ -1,0 +1,62 @@
+E, [2018-09-22T17:18:40.585182 #24359] ERROR -- Kitchen: ------Exception-------
+E, [2018-09-22T17:18:40.585276 #24359] ERROR -- Kitchen: Class: Kitchen::ClientError
+E, [2018-09-22T17:18:40.585299 #24359] ERROR -- Kitchen: Message: Could not load the 'dokken' driver from the load path. Please ensure that your driver is installed as a gem or included in your Gemfile if using Bundler.
+E, [2018-09-22T17:18:40.585314 #24359] ERROR -- Kitchen: ----------------------
+E, [2018-09-22T17:18:40.585328 #24359] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-09-22T17:18:40.585341 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/driver.rb:48:in `rescue in for_plugin'
+E, [2018-09-22T17:18:40.585354 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/driver.rb:38:in `for_plugin'
+E, [2018-09-22T17:18:40.585368 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:234:in `new_driver'
+E, [2018-09-22T17:18:40.585381 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:247:in `new_instance'
+E, [2018-09-22T17:18:40.585428 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:142:in `block in build_instances'
+E, [2018-09-22T17:18:40.585444 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `map'
+E, [2018-09-22T17:18:40.585458 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `with_index'
+E, [2018-09-22T17:18:40.585471 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-09-22T17:18:40.585485 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:117:in `instances'
+E, [2018-09-22T17:18:40.585498 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-09-22T17:18:40.585511 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-09-22T17:18:40.585525 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/command/list.rb:30:in `call'
+E, [2018-09-22T17:18:40.585538 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-09-22T17:18:40.585552 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:120:in `list'
+E, [2018-09-22T17:18:40.585566 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+E, [2018-09-22T17:18:40.585579 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-09-22T17:18:40.585593 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+E, [2018-09-22T17:18:40.585607 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+E, [2018-09-22T17:18:40.585620 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-09-22T17:18:40.585634 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-09-22T17:18:40.585647 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/bin/kitchen:13:in `<top (required)>'
+E, [2018-09-22T17:18:40.585661 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/kitchen:23:in `load'
+E, [2018-09-22T17:18:40.585673 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/kitchen:23:in `<main>'
+E, [2018-09-22T17:18:40.585695 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `eval'
+E, [2018-09-22T17:18:40.585710 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `<main>'
+E, [2018-09-22T17:18:40.585724 #24359] ERROR -- Kitchen: ----End Backtrace-----
+E, [2018-09-22T17:18:40.585736 #24359] ERROR -- Kitchen: ---Nested Exception---
+E, [2018-09-22T17:18:40.585749 #24359] ERROR -- Kitchen: Class: LoadError
+E, [2018-09-22T17:18:40.585762 #24359] ERROR -- Kitchen: Message: cannot load such file -- kitchen/driver/dokken
+E, [2018-09-22T17:18:40.585774 #24359] ERROR -- Kitchen: ----------------------
+E, [2018-09-22T17:18:40.585787 #24359] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-09-22T17:18:40.585799 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/driver.rb:48:in `rescue in for_plugin'
+E, [2018-09-22T17:18:40.585813 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/driver.rb:38:in `for_plugin'
+E, [2018-09-22T17:18:40.585826 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:234:in `new_driver'
+E, [2018-09-22T17:18:40.585870 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:247:in `new_instance'
+E, [2018-09-22T17:18:40.585884 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:142:in `block in build_instances'
+E, [2018-09-22T17:18:40.585898 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `map'
+E, [2018-09-22T17:18:40.585911 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `with_index'
+E, [2018-09-22T17:18:40.585924 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-09-22T17:18:40.585937 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:117:in `instances'
+E, [2018-09-22T17:18:40.585951 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-09-22T17:18:40.585964 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-09-22T17:18:40.585977 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/command/list.rb:30:in `call'
+E, [2018-09-22T17:18:40.585990 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-09-22T17:18:40.586004 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:120:in `list'
+E, [2018-09-22T17:18:40.586017 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+E, [2018-09-22T17:18:40.586030 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-09-22T17:18:40.586044 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+E, [2018-09-22T17:18:40.586057 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+E, [2018-09-22T17:18:40.586070 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-09-22T17:18:40.586083 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-09-22T17:18:40.586097 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/gems/test-kitchen-1.23.2/bin/kitchen:13:in `<top (required)>'
+E, [2018-09-22T17:18:40.586116 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/kitchen:23:in `load'
+E, [2018-09-22T17:18:40.586131 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/kitchen:23:in `<main>'
+E, [2018-09-22T17:18:40.586144 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `eval'
+E, [2018-09-22T17:18:40.586158 #24359] ERROR -- Kitchen: /Users/dobrescu/.rvm/gems/ruby-2.3.3/bin/ruby_executable_hooks:15:in `<main>'
+E, [2018-09-22T17:18:40.586171 #24359] ERROR -- Kitchen: ----End Backtrace-----

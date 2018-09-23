@@ -1,0 +1,31 @@
+I, [2018-09-22T11:26:12.093332 #2645]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
+I, [2018-09-22T11:26:12.107191 #2645]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
+I, [2018-09-22T11:26:12.108288 #2645]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
+E, [2018-09-22T11:26:12.159957 #2645] ERROR -- default-ubuntu-1604: Verify failed on instance <default-ubuntu-1604>.
+E, [2018-09-22T11:26:12.160275 #2645] ERROR -- default-ubuntu-1604: ------Exception-------
+E, [2018-09-22T11:26:12.160420 #2645] ERROR -- default-ubuntu-1604: Class: RuntimeError
+E, [2018-09-22T11:26:12.160588 #2645] ERROR -- default-ubuntu-1604: Message: Client error, can't connect to 'ssh' backend: You must provide a value for "host".
+E, [2018-09-22T11:26:12.160784 #2645] ERROR -- default-ubuntu-1604: ----------------------
+E, [2018-09-22T11:26:12.160929 #2645] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2018-09-22T11:26:12.161062 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/inspec-2.2.70/lib/inspec/backend.rb:88:in `rescue in create'
+E, [2018-09-22T11:26:12.161284 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/inspec-2.2.70/lib/inspec/backend.rb:43:in `create'
+E, [2018-09-22T11:26:12.161455 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/inspec-2.2.70/lib/inspec/runner.rb:66:in `configure_transport'
+E, [2018-09-22T11:26:12.161646 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/inspec-2.2.70/lib/inspec/runner.rb:58:in `initialize'
+E, [2018-09-22T11:26:12.161788 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-inspec-0.23.1/lib/kitchen/verifier/inspec.rb:81:in `new'
+E, [2018-09-22T11:26:12.161910 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-inspec-0.23.1/lib/kitchen/verifier/inspec.rb:81:in `call'
+E, [2018-09-22T11:26:12.162026 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:458:in `block in verify_action'
+E, [2018-09-22T11:26:12.162139 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2018-09-22T11:26:12.162252 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:513:in `block in action'
+E, [2018-09-22T11:26:12.162364 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-09-22T11:26:12.162476 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:512:in `action'
+E, [2018-09-22T11:26:12.162588 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:450:in `verify_action'
+E, [2018-09-22T11:26:12.162782 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2018-09-22T11:26:12.162986 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2018-09-22T11:26:12.163177 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2018-09-22T11:26:12.163361 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `each'
+E, [2018-09-22T11:26:12.163551 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2018-09-22T11:26:12.163751 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:162:in `verify'
+E, [2018-09-22T11:26:12.163977 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-09-22T11:26:12.164142 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-09-22T11:26:12.164384 #2645] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-09-22T11:26:12.164579 #2645] ERROR -- default-ubuntu-1604: ----End Backtrace-----

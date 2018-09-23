@@ -1,0 +1,15 @@
+DEPENDENCIES
+  sonarqube-wrapper
+    path: .
+    metadata: true
+
+GRAPH
+  homebrew (5.0.5)
+  java (2.2.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  sonarqube (0.3.3)
+  sonarqube-wrapper (0.1.0)
+    java (= 2.2.0)
+    sonarqube (= 0.3.3)
+  windows (5.1.1)

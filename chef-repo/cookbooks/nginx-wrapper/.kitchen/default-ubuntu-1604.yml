@@ -1,0 +1,179 @@
+---
+work_image: c47ed40cbc-default-ubuntu-1604
+runner_container:
+  Id: 37c8e6e366f4b4ff2c43c22172ac36b58fa5913a5eeffac449abde49a507f4f8
+  Created: '2018-09-22T11:23:45.71522837Z'
+  Path: sh
+  Args:
+  - "-c"
+  - trap exit 0 SIGTERM; while :; do sleep 1; done
+  State:
+    Status: running
+    Running: true
+    Paused: false
+    Restarting: false
+    OOMKilled: false
+    Dead: false
+    Pid: 1370
+    ExitCode: 0
+    Error: ''
+    StartedAt: '2018-09-22T11:23:46.946568765Z'
+    FinishedAt: '0001-01-01T00:00:00Z'
+  Image: sha256:ef93142c33f3bf5704982a57fa237f25902e73f905516c264f82b90478cd6520
+  ResolvConfPath: "/var/lib/docker/containers/37c8e6e366f4b4ff2c43c22172ac36b58fa5913a5eeffac449abde49a507f4f8/resolv.conf"
+  HostnamePath: "/var/lib/docker/containers/37c8e6e366f4b4ff2c43c22172ac36b58fa5913a5eeffac449abde49a507f4f8/hostname"
+  HostsPath: "/var/lib/docker/containers/37c8e6e366f4b4ff2c43c22172ac36b58fa5913a5eeffac449abde49a507f4f8/hosts"
+  LogPath: "/var/lib/docker/containers/37c8e6e366f4b4ff2c43c22172ac36b58fa5913a5eeffac449abde49a507f4f8/37c8e6e366f4b4ff2c43c22172ac36b58fa5913a5eeffac449abde49a507f4f8-json.log"
+  Name: "/c47ed40cbc-default-ubuntu-1604"
+  RestartCount: 0
+  Driver: overlay2
+  Platform: linux
+  MountLabel: ''
+  ProcessLabel: ''
+  AppArmorProfile: unconfined
+  ExecIDs: 
+  HostConfig:
+    Binds:
+    - "/root/.dokken/kitchen_sandbox/c47ed40cbc-default-ubuntu-1604:/opt/kitchen"
+    - "/root/.dokken/verifier_sandbox/c47ed40cbc-default-ubuntu-1604:/opt/verifier"
+    ContainerIDFile: ''
+    LogConfig:
+      Type: json-file
+      Config: {}
+    NetworkMode: dokken
+    PortBindings: 
+    RestartPolicy:
+      Name: ''
+      MaximumRetryCount: 0
+    AutoRemove: false
+    VolumeDriver: ''
+    VolumesFrom:
+    - chef-latest
+    CapAdd: []
+    CapDrop: []
+    Dns: 
+    DnsOptions: 
+    DnsSearch: 
+    ExtraHosts: 
+    GroupAdd: 
+    IpcMode: shareable
+    Cgroup: ''
+    Links: 
+    OomScoreAdj: 0
+    PidMode: ''
+    Privileged: true
+    PublishAllPorts: false
+    ReadonlyRootfs: false
+    SecurityOpt:
+    - label=disable
+    UTSMode: ''
+    UsernsMode: ''
+    ShmSize: 67108864
+    Runtime: runc
+    ConsoleSize:
+    - 0
+    - 0
+    Isolation: ''
+    CpuShares: 0
+    Memory: 0
+    NanoCpus: 0
+    CgroupParent: ''
+    BlkioWeight: 0
+    BlkioWeightDevice: 
+    BlkioDeviceReadBps: 
+    BlkioDeviceWriteBps: 
+    BlkioDeviceReadIOps: 
+    BlkioDeviceWriteIOps: 
+    CpuPeriod: 0
+    CpuQuota: 0
+    CpuRealtimePeriod: 0
+    CpuRealtimeRuntime: 0
+    CpusetCpus: ''
+    CpusetMems: ''
+    Devices: 
+    DeviceCgroupRules: 
+    DiskQuota: 0
+    KernelMemory: 0
+    MemoryReservation: 0
+    MemorySwap: 0
+    MemorySwappiness: 
+    OomKillDisable: false
+    PidsLimit: 0
+    Ulimits: 
+    CpuCount: 0
+    CpuPercent: 0
+    IOMaximumIOps: 0
+    IOMaximumBandwidth: 0
+    MaskedPaths: 
+    ReadonlyPaths: 
+  GraphDriver:
+    Data:
+      LowerDir: "/var/lib/docker/overlay2/435681ca32456bfa341b4f675b2a68aa8bb3160d472cc935c79ec620a042db9b-init/diff:/var/lib/docker/overlay2/ec09fde31006955a483ba64ccf452898023e16b189f6f70e863e3516749a4305/diff:/var/lib/docker/overlay2/4e91c355bbec602b61521f97d369599a905220e43a72c43d9a09ff3546ae86e2/diff:/var/lib/docker/overlay2/0676df6b545249513d9d3f2b9618027aa9307b31a3f4c03b4fe33fa8c371f0cb/diff:/var/lib/docker/overlay2/258d52a5681bacecf8b61cea66b4a0f868048d93f579bccd02d36217818230a5/diff:/var/lib/docker/overlay2/7903ecc5943a1ed00afe5ce3f96ab5a7ca42785b564d561d39e4b2c24c742519/diff"
+      MergedDir: "/var/lib/docker/overlay2/435681ca32456bfa341b4f675b2a68aa8bb3160d472cc935c79ec620a042db9b/merged"
+      UpperDir: "/var/lib/docker/overlay2/435681ca32456bfa341b4f675b2a68aa8bb3160d472cc935c79ec620a042db9b/diff"
+      WorkDir: "/var/lib/docker/overlay2/435681ca32456bfa341b4f675b2a68aa8bb3160d472cc935c79ec620a042db9b/work"
+    Name: overlay2
+  Volumes:
+    "/opt/chef": "/var/lib/docker/volumes/fc1bce84ee7510306c9944e1e02bfccc43397b27fd9beb0e9ca5701cda3dadbe/_data"
+    "/opt/kitchen": "/root/.dokken/kitchen_sandbox/c47ed40cbc-default-ubuntu-1604"
+    "/opt/verifier": "/root/.dokken/verifier_sandbox/c47ed40cbc-default-ubuntu-1604"
+  VolumesRW:
+    "/opt/chef": true
+    "/opt/kitchen": true
+    "/opt/verifier": true
+  Config:
+    Hostname: dokken
+    Domainname: ''
+    User: ''
+    AttachStdin: false
+    AttachStdout: false
+    AttachStderr: false
+    Tty: false
+    OpenStdin: false
+    StdinOnce: false
+    Env:
+    - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    Cmd:
+    - sh
+    - "-c"
+    - trap exit 0 SIGTERM; while :; do sleep 1; done
+    Image: c47ed40cbc-default-ubuntu-1604:latest
+    Volumes: 
+    WorkingDir: ''
+    Entrypoint: 
+    OnBuild: 
+    Labels:
+      X-Built-By: kitchen-dokken
+      X-Built-From: ubuntu:16.04
+    MacAddress: ''
+    NetworkDisabled: false
+    ExposedPorts: 
+    VolumeDriver: ''
+    Memory: 0
+    MemorySwap: 0
+    CpuShares: 0
+    Cpuset: ''
+  NetworkSettings:
+    Bridge: ''
+    SandboxID: 0b1ec15413e8e6555560e3461b1ebc34387ea42ae62224f03b8c3767e07adfff
+    HairpinMode: false
+    LinkLocalIPv6Address: ''
+    LinkLocalIPv6PrefixLen: 0
+    Ports: {}
+    SandboxKey: "/var/run/docker/netns/0b1ec15413e8"
+    SecondaryIPAddresses: 
+    SecondaryIPv6Addresses: 
+    EndpointID: ''
+    Gateway: ''
+    GlobalIPv6Address: ''
+    GlobalIPv6PrefixLen: 0
+    IPAddress: ''
+    IPPrefixLen: 0
+    IPv6Gateway: ''
+    MacAddress: ''
+platform_image: ubuntu:16.04
+instance_name: c47ed40cbc-default-ubuntu-1604
+instance_platform_name: ubuntu-16.04
+image_prefix: 
+last_action: setup
+last_error: RuntimeError

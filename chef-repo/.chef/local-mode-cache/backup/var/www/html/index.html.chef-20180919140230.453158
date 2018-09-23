@@ -1,0 +1,5 @@
+Hello World!
+Memory: {"swap"=>{"cached"=>"0kB", "total"=>"2051068kB", "free"=>"2051068kB"}, "hugepages"=>{"total"=>"0", "free"=>"0", "reserved"=>"0", "surplus"=>"0"}, "total"=>"2041312kB", "free"=>"892920kB", "available"=>"1699116kB", "buffers"=>"74924kB", "cached"=>"826028kB", "active"=>"458312kB", "inactive"=>"546248kB", "dirty"=>"136kB", "writeback"=>"0kB", "anon_pages"=>"108984kB", "mapped"=>"59756kB", "slab"=>"110036kB", "slab_reclaimable"=>"84188kB", "slab_unreclaim"=>"25848kB", "page_tables"=>"5088kB", "nfs_unstable"=>"0kB", "bounce"=>"0kB", "commit_limit"=>"3071724kB", "committed_as"=>"806824kB", "vmalloc_total"=>"34359738367kB", "vmalloc_used"=>"0kB", "vmalloc_chunk"=>"0kB", "hugepage_size"=>"2048kB"}
+IP Address: 
+Hostname: work 
+

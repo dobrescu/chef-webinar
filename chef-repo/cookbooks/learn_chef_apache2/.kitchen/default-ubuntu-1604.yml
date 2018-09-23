@@ -1,0 +1,9 @@
+---
+username: kitchen
+ssh_key: "/media/sf_chef-webinar/chef-repo/cookbooks/learn_chef_apache2/.kitchen/docker_id_rsa"
+image_id: fe12914e5af3
+container_id: 722b6d35dfabc82f2e4d7cf95f6eb7a7961b807d994f23732f93a84a52dda119
+hostname: localhost
+port: 32776
+last_action: create
+last_error: Kitchen::ActionFailed
