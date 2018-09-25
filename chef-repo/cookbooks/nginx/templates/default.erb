@@ -1,0 +1,10 @@
+upstream loadbalancing  {
+  server <%= @server1 %>;
+  server <%= @server2 %>;
+}
+
+ server {
+  location / {
+    proxy_pass  http://loadbalancing;
+  }
+}

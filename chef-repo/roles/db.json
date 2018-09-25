@@ -1,10 +1,10 @@
 {
-  "name": "web",
+  "name": "db",
   "json_class": "Chef::Role",
   "default_attribute": {
   },
   "chef_type": "role",
   "run_list": [
-    "recipe[first_cookbook::default]"
+    "recipe[mysql-wrapper]"
   ]
 }
