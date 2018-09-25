@@ -7,3 +7,5 @@ node_name                "dando"
 client_key               "#{current_dir}/dando.pem"
 chef_server_url          "https://api.chef.io/organizations/learn2chef"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+knife[:editor]="vim"

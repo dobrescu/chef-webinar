@@ -23,10 +23,6 @@ remote_file '/var/www/html/success.html' do
   action :create
 end
 
-execute 'display_java_version' do
-  command 'java -version'
-  live_stream true
-end
 
 service 'apache2' do
   action [:enable, :start]

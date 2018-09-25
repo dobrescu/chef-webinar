@@ -1,0 +1,13 @@
+{
+  "name": "web",
+  "json_class": "Chef::Role",
+  "default_attribute": {
+      "apache2": {
+        "listen" : ["*:80"]
+      }
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[apache2]"
+  ]
+}

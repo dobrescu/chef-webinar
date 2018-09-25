@@ -1,0 +1,12 @@
+{
+  "name": "dev",
+  "description": "bogus description",
+  "json_class": "Chef::Environment",
+  "default_attribute": {
+
+  },
+  "chef_type": "environment",
+  "cookbook_versions": {
+    "first_cookbook": "0.1.0"
+  }
+}
