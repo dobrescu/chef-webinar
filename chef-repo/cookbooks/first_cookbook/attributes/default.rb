@@ -1,0 +1,1 @@
+default['first_cookbook']['index_path_location'] = '/var/www/html/index.html'
